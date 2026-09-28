@@ -1,0 +1,14 @@
+{
+  "name": "coolrpg-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CoolRPG browser edition with 3-player co-op, PvP and Endless multiplayer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,28 @@
+COOLRPG WEB — SIMPLE DEPLOYMENT
+================================
+
+The web app needs one Node.js server. Players do NOT need Node.js.
+
+LOCAL / SAME WI-FI
+------------------
+1. On the host computer, install Node.js 18+.
+2. Double-click start_server.bat.
+3. Open http://localhost:3000 on the host.
+4. Find the host computer's local IPv4 address in Windows network settings.
+5. Friends on the same Wi-Fi open http://HOST-IP:3000.
+
+PUBLIC INTERNET
+---------------
+Upload this folder to a Node.js hosting service and use the public HTTPS address.
+The server reads the PORT environment variable when supplied by the host.
+
+NO EXE / NO ADMIN FOR PLAYERS
+-----------------------------
+Players only open the web address in a normal browser.
+
+LIMITS OF THIS BUILD
+--------------------
+- Rooms are stored in memory and disappear when the server restarts.
+- Player profiles live in each browser's localStorage and sync into a current room.
+- This is a casual multiplayer game server; it does not include accounts or anti-cheat protection.
+- The browser implementation ports the stable core multiplayer/game systems rather than every Kivy-only screen from the Python source.
