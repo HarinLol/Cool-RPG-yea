@@ -1,5 +1,4 @@
 COOLRPG WEB — BROWSER MULTIPLAYER BUILD
-========================================
 
 What this package provides
 --------------------------
